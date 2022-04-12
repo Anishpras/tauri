@@ -1,5 +1,10 @@
 # Changelog
 
+## \[0.3.6]
+
+- Create webview immediately when executed in the main thread.
+  - [fa2baba7](https://www.github.com/tauri-apps/tauri/commit/fa2baba76c8f59c81f2a2f7139033a09d14d89da) feat(core): create webview immediately when running in main thread ([#3891](https://www.github.com/tauri-apps/tauri/pull/3891)) on 2022-04-12
+
 ## \[0.3.5]
 
 - Fixes `WindowEvent::Destroyed` not firing.
